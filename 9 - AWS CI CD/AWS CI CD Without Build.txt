@@ -24,6 +24,7 @@ wget https://aws-codedeploy-us-east-1.s3.amazonaws.com/latest/install
 chmod +x ./install
 sudo ./install auto
 sudo service codedeploy-agent start
+sudo service codedeploy-agent status
 
 ===============================================================================================================
 3. Verify the CodeDeploy Agent:
